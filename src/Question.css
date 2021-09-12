@@ -1,0 +1,39 @@
+.questions {
+    text-align: left;
+}
+
+.options {
+    margin: 1%;
+}
+
+.box {
+    text-align: left;
+    margin: 1%;
+    padding: 1%;
+    border-radius: 8px;
+}
+
+.check {
+    padding: 4px;
+}
+
+.option {
+    padding: 4px;
+}
+
+.box:hover:not(.sel):not(.immut) {
+    border: 2px solid cornflowerblue;
+    background: #eff3fa;
+    color: black;
+}
+
+.sel {
+    border: 2px solid cornflowerblue;
+    background: cornflowerblue;
+    color: white;
+}
+
+.unsel {
+    border: 2px solid #eff3fa;
+    color: black;
+}
